@@ -1,9 +1,9 @@
 # Unimore-CAD
 
-    PRINCIPIO DI INDIPENDENZA
+    #PRINCIPIO DI INDIPENDENZA
       la tolleranza dimensionale è indipendente dalla tolleranza geometrica
 
-    TOLLERANZE GENERALI (ISO 2768 - mk) 
+    #TOLLERANZE GENERALI (ISO 2768 - mk) 
       Generali dimensionali  
         Fine - f  
         Media - m  
@@ -16,7 +16,7 @@
         grossolana - l  
     
 
-    TOLLERANZE GEOMETRICHE
+    #TOLLERANZE GEOMETRICHE
       Deviazioni dalle dimensioni reali da quelle nominali che incidono su funzionalità o accoppiamenti. 
       A differenza delle tolleranze geometriche di Posizione, Oscillazione e Orientamento, 
         le tolleranze geometriche di Forma non sono associabili.
@@ -24,14 +24,14 @@
         considerate teoricamente esatte, senza considerare le dimensioni.
   
 
-    TOLLERANZE DIMENSIONALI
+    #TOLLERANZE DIMENSIONALI
       Errori macrogeometrici.
       Controllano le dimensioni locali reali di un elemento.
       Composto da Gradi ti tolleranza e scostamento fondamentale:
         Esistono 18 gradi di tolleranza normalizzata IT secondo lo standard ISO, da IT1 a IT18 con IT0 e IT01 utilizzati per casi speciali:
           IT7 alberi precisi-medi e fori precisi per alberi torniti e fori torniti o ottenuti tramite rettifica alesatura
           IT8 alberi e fori medi per alberi e fori ottenuti tra ite tornitura
-  
+          
           Lappatura: IT4
           Rettifica cilindrica: IT5, IT6, IT7
           Rettifica per piani: IT5, IT6, IT7, IT8
@@ -42,13 +42,14 @@
           Trapanatura: IT10, IT11
           Tranciatura: IT10, IT11
           Formatura-stampaggio: IT11
-
+          
         Lo scostamento fondamentale definisce la minima distanza (dimensione della posizione) dalla linea dello zero.
         Sono definiti 27 livelli, usando le lettere maiuscole per i fori e minuscole per gli alberi:
           da A(a) a H(h) sono scostamenti ineriori
           H(h) sono scostamenti nulli
           da K(k) a ZC(zc) sono scostamenti superiori
           J(j) e JS(js) sono scostamenti simmetrici rispetto alla linea dello 0
+          
       Combiazioni FORO/albero comuni:
         con gioco
           H/f accoppiamenti rotanti, veloci e centraggio imperfetto
@@ -58,7 +59,7 @@
           H/j,k,m montaggio a mano, non può trasmettere sforzi
         iterferenza
           H/n,p montaggio forzato, può trasmettere sforzi
-
+          
       Accoppiamenti raccomandati:
         con gioco
           H11/c11 o C11/h11  accoppiamento libero molto largo
@@ -73,7 +74,9 @@
           H7/p6 o P7/h6  accoppiamento con interferenza, ma senza particolari pressioni
           H7/s6 o S7/h6  accoppiamento con interferenze per parti in acciaio, o per parti a spessore sottile che devono essere forzate a caldo
           H7/u6 o U7/h6  accoppiamento con bloccaggio fortissimo per parti che non possono essere separate senza subire danni permanenti
-     RUGOSITÀ DEL MATERIALE
+
+          
+     #RUGOSITÀ DEL MATERIALE
       Errori microgeometrici.
       Simbolo chiuso per indicare una asportazione di truciolato
       Simbolo con un cerchio alla base per indicare nessuna lavorazione
