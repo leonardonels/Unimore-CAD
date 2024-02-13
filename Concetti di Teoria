@@ -103,7 +103,19 @@ Il design intent può essere trasmesso con una corretta strategia nell'uso del m
       richiede notevoli risorse computazionali
       privo di interfaccia grafica
 
+L'architettura del software che sta dietro è costituita da:
+  geometric kernel
+    topological database
+    mathematical manager
+  visualization kernel
+    graphical viewing
+    user interface
 
+il flusso di lavoro è come segue:
+  richiesta di un comando da parte dell'utente
+  i comandi di interfaccia attivano particolari algoritmi del gestore matematico
+  il gestore matematico esegue modifiche nel database topologico
+  il database lancia l'aggiornamento della finestra di visualizzazione mediante la chiamata alla scheda video e ai suoi driver.
 
 
 
