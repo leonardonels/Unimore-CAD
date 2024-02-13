@@ -183,6 +183,75 @@ ICS - Internatioanl Classification for Standards
     livello 2: i campi sono suddivisi in 392 gruppi
     livello 3: 144 dei 392 gruppi sono ulteriromente suddivisi in 909 sottogruppi
 
+Teoria della Proiezione
+  tratta i principi usati per rappresentare graficamente oggetti e strutture 3d su supporti 2d
+  si basa su due variabili:
+    linea di vista
+      Raggio immaginario che parte dall'occhio dell'osservatore e raggiunge un oggetto
+    piano di proiezione
+      piano immaginario sul quale è proiettata l'immagine dell'oggetto
+  si divide in due rami
+    proiezioni prospettiche
+      la distanza tra oggetto e osservatore è finita
+      le linee di vista hanno origine in un punto (punto di stazionamento)
+      fortemente realistiche, complesse da realizzare e sono preferibili più per un impiego grafico e artistico
+    proiezioni parallele
+      la distanza tra oggetto e osservatore è infinita
+      le linee di vista procedono parallelamente
+      richiedono interpretazioni, però sono semplici da realizzare, preferibili per un impiego tecnico
+
+i disegni a più viste sono costituiti da proiezioni ortogonali realizzate sui piani coordinati in modo da mostrare solo due dimensioni per volta
+  piano verticale
+  piano orizzonatle
+  piano laterale
+
+vantaggi delle proiezioni a più viste
+  non altera le distanze reali e l misure
+  non altera gli angoli
+  non deforma le geometrie
+
+le viste principali sono 6:
+  superiore
+  inferiore
+  frontale
+  posteriore
+  laterale destra
+  laterale sinistra
+
+la disposizione delle viste può avvenire secondo i seguenti metodi:
+  primo diedro (europeo)
+    anteriore - da sinistra
+    dall'alto
+  terzo diedro (americano)
+    dall'alto
+    anteriore - da destra
+  frecce
+    introdotto negli anni 80
+    prevede l'indicazione sulla vista principale delle direzioni di osservazioni delle altre viste mediante frecce e lettere maiuscole
+
+raccordi e superfici rifinite
+  sono arotondamenti verso l'interno o verso l'esterno realizzati su spigoli
+  dipendono dal processo industriale utilizzato
+    stampaggio
+    forgiatura
+    iniezione
+  sono volutamente ottenuti con rifinitura per motivi di sicurezza, strutturali o estetici
+
+smussi
+  sono lavorazioni effettuate per eliminare spigoli vivi
+  possono essere interni ed esterni
+  sono indicati da quote lineari e angolari
+
+superfici di raccordo tangenti e superfici cilindriche (runout)
+  RUNOUT indica il metodo di rappresentazione di superfici di raccordo tangenti a superfici cilindriche
+  partendo da un punto di tangenza si traccia un arco di 1/8 di cerchio
+
+
+
+
+
+
+
 
 
 
