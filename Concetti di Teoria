@@ -1,5 +1,37 @@
 #Concetti di Teoria
 
-test
-parte
-due
+Scenario:  Industria 4.0
+  dopo l'arrivo delle macchine a vapore, dell'elettricità e della robotica, l'informatica unisce sempre più la mprogettazione e la realizzazione.
+
+Il successo di una azienda dipende dalla sua capacità di identificare i bisoni dei conusmatori e la sua capacità di progettare e fabbricare prodotti che soddisfino tali bisogni in modo rapido e con costi contenuti
+
+Un processo può essere considerato come un insieme di attività tra loro connesse, che è in rado di riunire e far interagire più funzioni aziendali
+
+l'innovazione consiste nell'utilizzo di nuove conoscenze o nell'utilizzo originale di competenze esistenti per offire un prodotto le cui caratteristche o capacità sono in grado di soddisfare meglio le aspettative del mercato e degli utenti
+  innovaione nei modelli organizzativi:
+    modelli gestionali -> per la riduzione del TIME TO MARKET, del TIME TO CUSTOMER e del TIME TO VOLUME
+    modelli aziendali -> per l'integrazone di tutte le funzioni aziendali e l'allagramento dei confini aziendali fino a comprendere fornitori, collaboratori e clienti
+    modelli informativi -> impiego di strumenti e tecnologie che superino le barrirere culturali all'interno dell'azienda e i limiti di collocazione geografica degli stabilimenti
+
+Logica sequenziale (tradizionale)
+  identificazione di un problema
+  idee prodotto
+  perfezionamento prodotto
+  analisi
+  ottimizzazione
+  documentazione
+  -> ISO 9000 certificazione di qulità internazionale
+
+Logica concorrente (concurrent engineering)
+  le fasi del ciclo di sviluppo, pu rimanendo le stesse della logica sequenziale vengono coordinate in parallelo con una condivisione delle informazioni e uno sviluppo sinergico del nuovo prodotto
+  tre attività principali sovrapposte:
+    ideazione
+    perfezionamento
+    implementazione
+  lo strumento principale di comunicazione è il disegno
+
+Anche in questo casi si applica il principio di Pareto:
+  la maggior parte dei difetti è docuta ad un numero ristretto di cause (80-20)
+
+Principi del CAD:
+  
