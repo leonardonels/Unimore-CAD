@@ -34,4 +34,92 @@ Anche in questo casi si applica il principio di Pareto:
   la maggior parte dei difetti è docuta ad un numero ristretto di cause (80-20)
 
 Principi del CAD:
-  
+  -Modellazione Solida
+    comprende quattro discipline
+      Modellazione geometrica
+      computer graphics
+      pattern recognision
+      image processing
+    il modello solido virtuale è una rappresentazione matematica che descrive l'oggetto fisico come:
+      forma
+      dimensioni
+      colore (texture)
+      proprietà fisiche
+      proprietà meccaniche
+  -Parametricità
+    è la pricipale caratteristica in grado di fornire flessibilità alla modellazione, il cambio di un parametro induce:
+      variazione dell'entità geometrica associata
+      propagazione della variazione alle entità geometriche connesse direttamente o indirettamente
+    i vincoli esplicitano gli aspetti variabili di un prodotto
+      dimensioni
+      configurazioni
+  -Associatività
+    è la propietà di legare i diversi ambienti di modellazioni attraverso relazioni biunivoche, in modo che siano sempre aggiornati e coerenti tra loro
+      lo spazio di modellaione CAD si compone di ambienti di:
+        sketcher 
+        ambiente di modellazione di parti 
+        ambiente di assemblaggio 
+        ambiente di messa in tavola
+  -Feature based
+    per feature si intende una caratteristica geometrica o singolarità funzionale/tecnologica modificabile
+    esempio: feature di base (estrusione e rivoluzione), feature di forma(foratura, raccordatura/smussatura, ripetizione lineare o circolare...)
+    può essere indipendente o legata da relazioni di padre-figlio ad altre feature
+  -History Based
+    la costruzione del modello dipende dalla sequenza delle feature (raccolte e gestite all'interno del feature manager)
+  -Design Oriented
+
+Una modellazione efficace è basato sul trasferimento del Design Intent
+  la disposizione intelligente delle feature e delle fimensioni di un design con l'obiettivo di rispettare l'obiettivo del design.
+Il design intent può essere trasmesso con una corretta strategia nell'uso del mathematical manager, cioè scrivendo, svolgendo e gestendo le operazioni geometriche e matematiche sui dati topologici (eventi)
+  rappresentazione interna dei vincoli:
+    formato di alto livello che permette una risoluzione simboica prima che numerica
+    strutture ad labero o grafo attraversate da algoritmi di ricerca e calcolo della soluzione
+    formato di basso livello
+  risoluzione dei vincolo
+    solutori locali (passo passo) che risolvono sottogruppi di vincoli ad ogni passo
+    solutori globali che risolvono parallelamente tutti i vincoli per approssimazioni successive
+  rappresenazione e estione dei modelli
+    approccio di prorammazione
+      permettono la creazione di parti ricorrenti e richiedono solo alcuni valori all'utente
+      non permettono modifiche al disegno
+      necessitano di un programmatore
+    approccio variazionale
+      acquisizione dei vincoli per imposizione
+        richiede vincoli ed entità geometriche espicite
+      rappresentazione interna dei vincoli tramite matrici di equazioni esplicite
+        i termini noti sono i parametri e le incognite sono le caratteristiche geometriche
+      risoluzione dei vincoli parallela
+      SOLITAMENTE NEL SOLO AMBIENTE BIDIMENSIONALE DI SKETCH
+    approccio procedurale-relazionale
+      acquisizione dei vincoli in modo automatico
+        il progettista si limita al solo disegno del modello mentre il sistema cattura l'insieme dei vincoli elaborando la procedura seguita dall'utente
+      rappresentazione interna dei vincoli tramite strutture a grafo
+      risoluzione dei vincoli sequenziale
+      EVENTUALI CONFIGURAZIONI GEOMETRICHE OTTENUTE A FRONTE DELLA MODIFICA DEI PARAMETRI RISENTONO DELL'ORDINE DELLE OPERAZIONE SEGUITE
+    approccio basato su regole
+      si avvale di IA
+      i vincoli sono espressi da fatti o da regole
+      svincola la variabilità dimensionale dai problemi di calcolo tipici dell'approccio variazionale: è il sistema esperto (intelligente) che individua una strategia che valuta sequenzialmente i vincoli del modello
+      richiede notevoli risorse computazionali
+      privo di interfaccia grafica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
