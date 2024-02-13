@@ -246,6 +246,63 @@ superfici di raccordo tangenti e superfici cilindriche (runout)
   RUNOUT indica il metodo di rappresentazione di superfici di raccordo tangenti a superfici cilindriche
   partendo da un punto di tangenza si traccia un arco di 1/8 di cerchio
 
+viste in sezione
+  metto in evidenza caratteristiche interne di parti o strutture senza utilizzare (limitando) le linee nascoste
+  superfici e spigoli vivi posti oltre il piano di taglio vanno rappresentati
+  le linee di contorno di aree piene all'interno di vist di sezione sono continue e non tratteggiate
+  sono definite da
+    piani di taglio immaginari che attraversano l'oggetto
+      completamente (sezione completa)
+      per metà (semisezione)
+      in parte (sezione parziale)
+      multipli
+    direzioni e verso di vista
+
+i piani di taglio generalmente coincidono con i piani di simmetria
+le direzioni e i versi seguono i metodi di rappresentazione delle proiezioni ortogonali
+tutte le caratteristiche posizionate oltre il piano di taglio vanno rappresentate
+tutte le superfici toccate dal piano di taglio vanno evidenziate con la campitura
+  la campitura generalmente si esegue a 45 gradi
+  la campitura deve NON essere parallela o perpendicolare alle linee di contorno
+  se i contori sono a 45 gradi si posso optare linee a 30 o 60 gradi
+  deve essere interrotta in presenza di annotazioni cifre o simboli grafici
+  per superfici ampie può essere limitata alla zona adiacente al contorno
+  sezioni di piccolo spessore possono essere annerite completamente
+nel caso di sezioni di gruppi o complessivi la campitura deve
+  essere uguale per un medesimo pezzo
+  avere diverso passo o inclinazione per pezzi diversi adiacenti
+  essere uguali per parti diverse con un unico numero di riferimento
+per convenzione alcune parti non vanno sezionate se attraversate parallelamente alla dimensione maggiore
+  nervature
+  anime
+  razze di pulegge o ruote
+  denti delle ruote dentate
+  elementi di piccolo spessore
+  alberi
+  spine
+  perni
+  chiodi
+  ribattini
+  bulloni
+  sfere e rulli di cuscinetti volventi
+  elementi commerciali
+sono consentite sezioni se presentano particolarità costruttive. in questo caso una sezione parziale è preferibile
+
+parti contigue di pezzi accoppiati vengono rappresentate con la linea di tipo K (mista fine a due tratti brevi) e non vengono rappresentate anche se tagliate dal piano di sezione
+
+tramite la linea K (mista fine a due tratti brevi) rappresentiamo anche particolarità poste davanti al piano di sezione
+
+tipi di sezioni
+  sezioni con un solo piano
+  semisezioni
+  sezioni parziali
+  sezioni ribaltate in lungo (per evidenziare profili)
+  sezione in vicinanza (sezione ribaltata per il lungo ma posta esternamente alla vista)
+  sezioni con piani consecutivi o concorrenti
+  sezione ausiliaria
+  sezione con superfici di forma qualsiasi
+  sezioni successive
+  
 
 
 
