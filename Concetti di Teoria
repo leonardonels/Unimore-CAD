@@ -109,7 +109,13 @@ L'architettura del software che sta dietro è costituita da:
     mathematical manager
   visualization kernel
     graphical viewing
+      è il gruppo di finestre grafiche in cui viene disegnato il contenuto del database topologico
+      sfrutta librerie standard
     user interface
+      a linea di comando
+      menu a tendina
+      a icone
+      gestisce i comandi di vista indipendetemente dal gk
 
 il flusso di lavoro è come segue:
   richiesta di un comando da parte dell'utente
