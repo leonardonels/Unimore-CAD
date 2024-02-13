@@ -123,12 +123,59 @@ il flusso di lavoro è come segue:
   il gestore matematico esegue modifiche nel database topologico
   il database lancia l'aggiornamento della finestra di visualizzazione mediante la chiamata alla scheda video e ai suoi driver.
 
+Disegno:
+  informazione tecnica, data su un supporto di informazione, rappresenta graficamente in accordo con regole concordate e normalmete in scala (UNI EN ISO 10209:2012)
+  i disegni possono essere classificati in base alla gerarchia di aggregazione
+    disegno di insieme (complessivo)
+    disegno di sottoinsieme (gruppo e sottogruppo)
+      raggruppando particolari per formare un insieme senza funzionamento autonomo si ottiene un sottgruppo
+        i sottogruppi servono a definire le modalità di accoppiamento
+      raggruppando particolari per formare un insieme con funzionamento autonomo si ottiene un gruppo
+    disegno di componente (particolare)
+    disegno di dettaglio
+  i disegno possono essere classificari in base alla collocazione nel ciclo di fabbricazione
+    disegno di concepimento (preliminari o di avanprogetto)
+      schizzi, disegno di gruppi, sottogruppi o particolari più o meno completi
+    disegno costruttivo (di definizione)
+      riportano in modo completo tutte le prescrizioni funzionali (quote, tolleranze, rugosità)
+    disegno di fabbricazione (di produzione)
+      riportano tutte le indicazioni necessario alla fabbricazione, al controllo, al montaggio delle parti all'interno dei gruppi/sottogruppi
+    disegno come costruito
+      è il documento fiale destinato all'archiviazione e riporta tutte le informazioni relativi a componenti e complessivi nella configurazione realmente eseguita
 
+Norma:
+  regola che fissa le condizioni di esecuzione di un oggetto o di elaborazione di un prodotto di cui si vogliano
+    unificare l'impiego
+    assicurare l'intercambiabilità
+  azione che porta a stabilire ed applicare regole per mettere ordine in un determinato campo di attività per favorire
+    comunicazione e collaborazione tra gli interessati
+    economia generale ottimale nel rispetto di esigenze funzionali e di sicurezza
 
+standardizzazione consiste nell'utilizzo di uno stesso componente in più prodotti
+  a causa di una scelta interna della azienda
+  a causa di una imposizione normativa
+la standardizzazione è possibile se 
+  un componente implementa funzioni d'utilizzo comune a più prodotti
+  l'interfaccia di un componente è identica tra prodotti doversi
+la standardizzazione incide su
+  costi di prodotto/processo
+    economie di scala
+    costi da sovradimensionamento
+  performance di prodotto/processo
+    performance da sovradimensionamento
+    compatibilità delle nuove tecnologie
 
+ISO - International Organization for Standardization
+CEN - European Committee for Standardization
+UNI - Ente Nazionali di Unificazione
 
+processo di elaborazione di una norma
+  messa allo studio - di un progetto di norma, su proposta di settori produttivi o enti di normazione
+  stesura del progetto di norma - nell'ambito della commissione o organo tecnico incaricato dallo studio con funzione di pianificazione e controllo strutturato in gruppi di lavoro di esperti con funzioni creative
+  inchiesta pubblica - distribuzione del progetto di norma a tutte le parti economico/sociali coinvolte e raccolta dei commenti
+  pubblicazione - con conseguente entrata in vigore
 
-
+le grandi aziende emanano norme interne (de facto) che normalizzano e unificano il proprio cotesto
 
 
 
