@@ -303,6 +303,56 @@ tipi di sezioni
   sezione con superfici di forma qualsiasi
   sezioni successive
   
+Quote
+  dal punto di vista geometrico
+    quote di grandezza
+    quote di posizione
+    quote di accoppiamento
+  dal punto di vista della funzione
+    funzionali
+    non funzionali
+    ausiliarie
+
+le linee di riferimento
+  sporgono di 2mm oltre la linea di misura (con le frecce)
+  sono ortogonali all dimensione da misurare
+  impiegano assi di simmetria, tracce di piani e linee di contorno
+  generalmente non impiegano linee nascoste
+    si riferiscono a intersezioni fittizie per identificare raccordi o smussi
+  non attraversano le linee di contorno
+  non impiegano assi di simmetria, tracce di piani e linee di contorno
+  sono parallele alle dimensioni da quotare (ortogonali alle linee di riferimento)
+  generalmente collocate all'esterno delle viste
+  non si incrociano tra loro
+  sono distanziate rispetto alla vista e tra loro in modo uniforme
+  non si riferiscono a parti viste in scorcio (non paralleli alla vista)
+  privilegiano la chiarezza
+
+quote
+  è il valore dumerico di una dimensione
+  lineari in mm e angolari in gradi sessagesimali
+  indicano le quote reali indipendentemente dalla scala
+  devono rispettare le dimensioni minime
+  comprendono eventuali simboli come raggio o diametro (o altre indicazioni)
+  NON DEVONO ESSERE DUPLICATE
+
+secondo normativa UNI ISO le quote possono
+  essere leggibili sia in verticale che in orizzontale (da sx a dx, dalla base, con rotazione di 90 gradi in senso orario)
+  essere centrate con valori posti sopra alla linea di misura
+  orientamento sui valori obliqui e angolati
+  CRITERIO A
+  linee di misura interrotte per misure oblique o verticali
+  CRITERIO B NON SEGUITO
+SI SEGUE IL CRITERIO A
+
+Classificazione delle quote [28]
+
+
+
+
+
+
+
 
 
 
