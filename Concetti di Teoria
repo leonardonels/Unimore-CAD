@@ -518,11 +518,29 @@ TIPI DI LAVORAZIONI MECCANICHE
           estraibilità del modello dalla forma
             angoli di sformo o spoglia
             raccordi ampi
-
+      cesoiatura
+        lamiere di pochi millimetri
+      tranciatura
+        il prodotto è una sagoma di lamiera
+      punzonatura
+        il prodotto è un pannello di lamiera
   LAVORAZIONE DI LAMIERE
     taglio
     imbutitura
+      a partire da lamiere piane realizza oggetti cavi le cui superfici possono NON essere sviluppabili in piano
+      utilizza materiali a carico di snervature basso
+    piegatura
+      tradizionale
+    bordatura
+      per la creazione di bordi arrotolati alle estremità di cilindri cavi
+    aggraffatura
+      per l'unione di lembi d'estremità
+    calandratura
+      per la trasformazione di lamiere piane (spessore elevato) in corpi cilindrici cavi senza fondo
   ESPORTAZIONE DI TRUCIOLO
+      parte da un GREZZO
+      asporta il sovrametallo (materiale in eccesso) in froma di truciolo (lamine di metallo)
+      utilizza utensili in moto relativo rispetto al grezzo
     macchine utensili
     tornitura 
     fori da centro
@@ -530,10 +548,25 @@ TIPI DI LAVORAZIONI MECCANICHE
     fresatura
     foratura e alesatura
     rettifica
+      tramite grani abrasivi irregolari tenuti insieme da un agglomerante (mola)
+      tangenziale o frontale
     stozzatura e brocciatura
+      stozzatura produce scalanaure verticali dritte e sagomate
+      brocciatura asporta progressivamente il truciolo attravreso un unico passaggio di un utensile, molto costoso, che possiede una successione ordinata
   SALDATURA
+    preparazione dei due lembi (cianfrinatura)
+    riscaldamento del giunto
+      saldatura autogena: il giunto viene riscaldato fino a fondere unendo così i lembi col materiale stesso del giunto o con l'aiuto di un materiale di apporto ad esso omogeneo
+      saldatura eterogenea: riscaldato il giunto al di sotto della temperatura di fusione viene fuso su di esso un materiale di apporto ad esso eterogeneo e con un punto di fusione più basso
+    il calore necessario all'attuazione del processo viene otenuto con diverso sistemi
+      una fiamma prodotta per combustione
+      un arco elettrico che viene formato tra due elettrodi
+      resistenza elettrica ottenuta per effetto joule al passaggio di una corrente attraverso i pezzi da saldare
+      laser ad elevata potenza o altri sistemi di apporto di energia non da fiamma
+    una buona saldatura deve prevedere una zona che la zona di fusione sia protetta da fenomeni di ossidazione ed il metallo fuso sia depurato da scorie
+    il metallo di apporto può essere in forma di barrette o di filo continuo, che vengono avvicinate alla zona di fusione.
 
-
+GPS - Geometrical product specifications
 
 
 
