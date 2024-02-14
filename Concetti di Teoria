@@ -345,8 +345,49 @@ secondo normativa UNI ISO le quote possono
   CRITERIO B NON SEGUITO
 SI SEGUE IL CRITERIO A
 
-Classificazione delle quote [28]
-
+Classificazione delle quote
+  dal punto di vista della geometria
+    grandezza
+      orizzontali
+      verticali
+      diametro
+      raggio
+    posizione
+      orizzontale
+      verticale
+      angolo
+      orientamento di fori (es. disposti lungo una circonferenza, disposti linearmente)
+    accoppiamento
+  dal punto di vista della disposizione
+    quotatura in serie
+      ogni elemento è quotato rispetto a quello vicino, formando una serie o una catena
+      possibile accumolo di errori
+      non è presente un riferimento
+      da più importanza alle singole lunghezze anzichè alla dimensione totale
+      poco utilizzata
+    quotatura in parallelo
+      ogni elemento è quotato rispetto ad un'origine comune
+      non porta accumulo di errori
+      stabilisce un riferimento univoco
+      particolarmente adatta alla quotatura tecnologica
+    quotatura combinata
+    quotatura con quote sovrapposte
+      variante della quotatura in parallelo
+      consente di riparmiare spazio
+    quotatura in coordinate
+      viene fissata un'origine
+      le quote vengono raggruppate in tabelle ed espresse
+        in coordinate cartesiane
+        in coordinate polari
+        in coordinate polari con rullo di misura
+dal punto di vista dello scopo del disegno
+    quotatura funzionale
+      funzionale: sono necessarie per capire lo scopo a cui il pezzo è destinato e non possono essere dedotte da altre quote
+      non funzionale: non sono indispensabili a comprendere lo scopo del pezzo, ma necessarie a definirne la forma
+      ausiliarie: scritte tra parentesi, hanno solo scopo informativo o di immediatezza di comunicazione
+    quotatura tecnologica
+      quote atte a facilitare le operazione tecnologiche
+    quotatura di collaudo
 
 
 
