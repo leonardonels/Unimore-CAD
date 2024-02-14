@@ -568,10 +568,56 @@ TIPI DI LAVORAZIONI MECCANICHE
 
 GPS - Geometrical product specifications
 
+in opposizione al normale approccio sottrattivo, la stampa 3D segue un approccio additivo
+  per strati
+  in tempi brevi
+  senza l'ausilio di utensili
+  tramite fonte di energia
+    calore
+    luce
+    laser
+inizialmnte, anni '80, sfruttata per avere rapidamente prototipi, successivamente, anni '90, strumenti e ora, fine anni '90 in poi, produzione effettiva
+i costi dell'approccio additivo prevede costi iniziali superiori, rispeto al metodo tradizionale, ma all'aumentare della complessità i costi aumentano in maniers più lineare, riducendo i costi riepsetto al metodo tradizionale per pezzi complessi
+i costi in relazione al volume sono tutt'ora più elevati per le tecnologie additive, rispetto alle tradizionali (che scalano meglio), limitando le tecnologie additive a volumi più piccoli
+ESTRUSIONE DI MATERIALE
+  un filamento, genralmente plastico, viene portato a fusione e depositato per mezzo di un estrusore
+  necessita supporti
 
+STL
+  formato universale leggibile da tutti i sistemi CAX e rappresenta, sottoforma di triangoli, la superficie del modello
+  la quantità e la forma dei triangoli determinano la precisione della superficie discretizzata rispetto a quella reale
+  nella maggior parte dei sistemi il formato STL può essere esportato come ASCII o binario (compresso)
+  ERRORI
+    mormali invertite - i punti dei triangoli non sono letti nell'ordine giusto dal software e quindi la normale di questi triangoli risulta invertita rispetto agli altri
+      per attribuire il verso alla normale viene usata la regola della mano destra
+    buchi - la mesh non deve presentare fori quindi tutte le superfici aperte devono essere chiuse
+    triangoli sovrapposti - l'errore si presenta qualora uno o più triangoli sono sovrapposti e la loro distanza è maggiore della tolleranza imposta
+    triangoli intersecati - l'errore si verifica quando un vertice di un triangolo cade su un lato del triangolo adiacente
+    esistono strumenti di riparazione, ma non sono sempre efficaci
+  la modifica del cad risulta difficile, non parametrica
 
+SUPPORTI
+  maggiore utilizzo di materiale
+  maggiore tempo di stampa
+  maggiori operazioni di post processing
+  maggiori rischi di danneggiare la parte
 
+PARAMETRI
+  altezza degli strati
+  impostazione di riempimento
+  strategie di scansione
+  temperature di lavoro
+  strategie di raffreddamento
+  velocità di stampa
+  ...
 
+MATERIALI
+  PLA - buono, reistente, facile da usare, pessima resistenza al calore e agli urti
+  PET - peggiore del PLA in generale, ma migliora la reistenza agli urti e al calore
+  ABS - simile al pet, in più ottima resistenza al calore
+  NYLON - molto resistente agli urti, mediamente facile da stampare
+  PC - policarbonato - ottima resistenza a calore e stress
+  TPU - pessimo in tutto a eccezzione della resistenza fisica
 
 
 
