@@ -393,14 +393,112 @@ Tolleranze dimensionali
 
 Tolleranze geometriche
 
+Note sulla tolleranza
+  il lato progettazione vuole tolleranze strette per
+    funzionalità
+    prestazioni
+  mentre il lato produzione vuole tolleranze larghe per
+    produzione meno precisa ed impegnativa
+    costi (es. ridurre gli scarti)
 
+SIZE DEVIATION
+  è la differenza tra dimensione nominale e la dimensione efettiva
+  nei processi di lavorazione meccanica è originata principalemnte da
+    errori di posizionamento in macchina utensile
+    variazioni di processo
+      usura utensili
+      cambio utensili
+      lubrificazione
+      ...
 
+GEOMETRICAL DEVIATION
+  forma (es. rettilineità, planarità, cilindricità)
+  orientazione (es. parallelismo, inclinazione)
+  posizione (es. localizzazione, concentrcità, simmetria)
 
+WAVINESS (Ondulazione)
+  è l'insieme delle irregolarità superficiali periodiche che si ripetono con passo maggiore dalle irregolarità che compongono la rugosità
+  nei processi di lavorazione meccanica è originata principalmente da
+    eccentricità nel posizionamento del pezzo durante la lavorazione
+    errori di forma dell'utensile
+    vibrazioni della macchina utensile, del componente o dell'utensile durante il processo di lavorazione
 
+RUGOSITÀ
+  è l'insieme delle irregolarità superficiali periodiche o non periodiche che derivano dal processo produttivo
+  nei processi di lavorazione meccanica è originata principalmetnte da
+    effetti del tagliente sul materiale
+    finitura superficiale
+    ricoprimenti
+    corrosione
 
+SURFACE DISCONTINUITY
+  è un'imperfezione isolata della superficie
+    frattura
+    porosità
+    graffio
+    ...
+  viene tratta separatamente rispetto agli altri errori
 
+EDGE DEVIATION 
+  è lo scostamento di uno spigolo dalla forma ideale a causa di
+    bave
+    rotture
+    abrasioni
+    ...
 
+la classificazione delle PROPRIETÀ SUPERFICIALI è utile perchè hanno:
+  Differente origine del processo di produzione del componente: al fine di avere il pieno controllo del processo produttivo è necessario trattarle in modo separato
+  Differente effetto sull'idoneità della superficie al compito assegnatole in fase di progetto
 
+La TOLLERANZA è l'errore massimo ammissibile (in valore assoluto) consentito nella costruzione di un pezzo:
+  ERRORI DIMENSIONALI: deviazioni delle dimensioni reali da quelle nominali che incidono su Funzionalità e Accoppiamenti -> TOLLERANZE DIMENSIONALI
+  ERRORI GEOMETRICI:  deviazioni delle superfici reali da quelle nominali
+    Macrogeometrici: scostamenti delle superfici dalla forma e dalle posizioni geometriche ideali -> TOLLERANZE GEOMETRICHE
+    Microgeometrici: irregolarità superficiali costituite da una successione di creste e valli dell'ordine dei micrometri -> RUGOSITÀ
+
+la progettazione funzionale prescrive gli errori accettabili nella costruzione attraverso l'indicazione di:
+  tollerane generali, indicate nella tabella delle iscrizioni (cartiglio), dimensionali e geometriche
+  finitura superficiale generale
+  tolleranze dimensionali
+  tolleranze geometriche
+  finitura superficiale
+
+L'ERRORE è rappresentato dalla differenza fra il valore di lettura e il valore noto "convenzionalmente vero" della grandezza fisica sottoposta a misurazione
+L'ERRORE TOTALE è costituito da una somma di errori
+  conosciuti quantitativamente
+  non conosciuti
+Perchè un valore sia convenzionalmente vero è necessario assicurare la riferibilità delle misure al SI delle unità
+
+l'ACCOPPIAMENTO di più parti durante il montaggio può avvenire:
+  aggiustaggio
+    pezzi adattati singolarmente (pochi pezzi)
+    sovradimensionamento dimensionale
+    manodopera specializzata
+    alti costi
+  intercambiabilità
+    produzione dei singoli particolari in tempi e luoghi diversi
+    accoppiamenti dei pezzi finiti senza aggiustaggio
+    sostituzione dei pezzi rotti/deteriorati
+
+i termini FORO e ALBERO indicano genericamente due pezzi, anche non cilindrici, che devono essere collegati tra loro, rappresentanti un vuoto e un pieno
+considerando due facce (o piani tangenti) parallele di un pezzo
+  albero designa la dimensione esterna dello spazio, il contenuto
+  il foro designa la dimensione dello spezio, contenente
+
+tipi di accoppiamento
+  mobile (libero o con gioco)
+  incerto  
+  con interferenza
+
+il sistema ISO introduce i concetti di
+  grado di tolleranza IT
+    18 gradi più due da utilizzare in casi particoari (IT0 IT01)
+  scostamento fondamentale
+    27 posizioni, da A a ZC
+    in lettere maiuscole per i fori
+    in lettere minuscole per gli alberi
+
+TIPI DI LAVORAZIONI MECCANICHE
 
 
 
