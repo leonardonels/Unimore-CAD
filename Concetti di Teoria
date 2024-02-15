@@ -619,8 +619,59 @@ MATERIALI
   PC - policarbonato - ottima resistenza a calore e stress
   TPU - pessimo in tutto a eccezzione della resistenza fisica
 
-PDM
-PLM
+PDM - product data management
+  integrazione tra informatica di progetto e informatica di produzione, commercializzazione e mantenimento di prodotto
+  consente
+    livelli superirori di visibilità (sicurezza) dell'informazione
+    migliore capacità di previsione
+    maggiore controllo della complessità dello scenario aziendale
+    integrazione e ottimizzazione di risorse umane, dati e processi
+  oviettivi:
+    favorire il CONCURRENT EGNINEERING, attraverso la condivisione organica dei dati, senza vincoli di spazio e tempo
+    ridurre il time to market ed i costi di processo attraverso il reengineerign dei processi
+    promuovere e gestire il know-how aziendale, attraverso la documentazione della storia dei prodotti: riutilizzo di componenti (risparmio e affidabilità), valutazione dei rischi accurata e previsione rapida
+    riorganizzare il flusso delle informazioni e dei processi, attraverso la definizione della coretta sequenza di operazioni necessarie all'aaprovazione, notifica, visualizzazione modifiche
+    MIGLIORARE LA QUALITÀ DEL PRODOTTO attraverso una migliore qualità dei documenti e razionalizzazione dei processi
+    RIDUZIONE DEL TEMPO (COSTO!) IMPIEGATO IN ATTIVITÀ A BASSO VALORE AGGIUNTO, attraverso l'eliminazione degli aspetti ridondanti di reperimento documenti, verifica ad approvazione degli avanzamenti, distribuzione degli aggiornamenti, duplicazione, duplicazione dai documenti
+    DIMINUIRE I COSTI DI PRODUZIONE, attraverso la riduzione degli dovuti alla lentezza del flusso informatico
+    DIMINUIRE I COSTI DI GESTIONE DELLE SCORTE, attraverso la standardizzazione e la realizzazione dei componenti
+  funzionalità di base
+    integrazione delle informazioni indipendentemente dalla provenienza
+    impiego di tecnologie informatiche di base (reti e protocolli di comunicazione, sistemi di posta elettronica, DATABASE MANAGEMENT SYSTEM) per fornire:
+    sofisticati meccanismi di controllo degli accessi (SICUREZZA E INTEGRITÀ)
+    sistema di notifica (RAPIDITÀ DI INTERVENTO)
+    interfaccia unica per applicativi differenti (SEMPLICITÀ D'USO)
+    supporto informatico alle procedure organizzative che governano il ciclo di vita dei documenti (CERTIFICAZIONE DI QUALITÀ)
+    ANALISI RELAZIONALE dei dati (database relazionali)
+  gestioni di
+    ARCHIVIO DELLA DOCUMENTAZIONE
+    CICLO DI VITA DEL PRODOTTO
+    STRUTTURA DEL PRODOTTO
+    CONTROLLO DELLE CONFIGURAZIONI
+    CLASSIFICAZIONE DEI COMPONENTI STANDARDIZZATI E DEI RELATIVI FORNITORI
+    PROCESSO DI MODIFICA DEL PRODOTTO
+    AVANZAMENTO DEI PROGETTI
+
+PLM - product lifecycle management
+  funzioni
+    GESTIONE EFFICACE DEL CAPITALE INTELLETTUALE, assicura accuratezza, diffusione, integrità e sicurezza delle informazioni
+    USO EFFICACE DEL CAPITALE INTELLETTUALE, fornisce informazioni corrette al momento giusto, alle persone giuste e nel contesto giusto
+  obiettivi principali
+    CREAZIONE DI UN AMBIENTE OMOGENEO E INTEGRATO che permetta di seguire l'intero ciclo di prodotto in tutte le sue fasi
+    SVILUPPO DI UN APPROCCIO BASATO SUL PRODOTTO frutto di una strategia che vede l'informazione, la conoscenza e la collaborazione come le risorse fondamentali dell'azienda
+  definisce 4 concetti fondamentali
+    ACCESSO UNIVERSALE, SICURO, alle infromazioni
+    GARANZIA DELL'INTEGRITÀ delle informazioni
+    GESTIONE DEI PROCESSI utilizzati per creare, distribuire, condividere applicare le informazioni
+    COINVOLGIMENTO ED INTEGRAZIONE DELLE FUNZIONI AZIENDALI collegate al prodoto
+
+
+
+
+
+
+
+
 
 
 
