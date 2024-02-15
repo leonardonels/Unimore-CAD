@@ -78,8 +78,8 @@ Il design intent può essere trasmesso con una corretta strategia nell'uso del m
   risoluzione dei vincolo
     solutori locali (passo passo) che risolvono sottogruppi di vincoli ad ogni passo
     solutori globali che risolvono parallelamente tutti i vincoli per approssimazioni successive
-  rappresenazione e estione dei modelli
-    approccio di prorammazione
+  rappresenazione e gestione dei modelli
+    approccio di programmazione
       permettono la creazione di parti ricorrenti e richiedono solo alcuni valori all'utente
       non permettono modifiche al disegno
       necessitano di un programmatore
@@ -264,7 +264,7 @@ tutte le caratteristiche posizionate oltre il piano di taglio vanno rappresentat
 tutte le superfici toccate dal piano di taglio vanno evidenziate con la campitura
   la campitura generalmente si esegue a 45 gradi
   la campitura deve NON essere parallela o perpendicolare alle linee di contorno
-  se i contori sono a 45 gradi si posso optare linee a 30 o 60 gradi
+  se i contori sono a 45 gradi si posso usare linee a 30 o 60 gradi
   deve essere interrotta in presenza di annotazioni cifre o simboli grafici
   per superfici ampie può essere limitata alla zona adiacente al contorno
   sezioni di piccolo spessore possono essere annerite completamente
@@ -282,15 +282,15 @@ per convenzione alcune parti non vanno sezionate se attraversate parallelamente 
   spine
   perni
   chiodi
-  ribattini
+  ribattini o rivetti
   bulloni
   sfere e rulli di cuscinetti volventi
   elementi commerciali
 sono consentite sezioni se presentano particolarità costruttive. in questo caso una sezione parziale è preferibile
 
-parti contigue di pezzi accoppiati vengono rappresentate con la linea di tipo K (mista fine a due tratti brevi) e non vengono rappresentate anche se tagliate dal piano di sezione
+parti contigue di pezzi accoppiati vengono rappresentate con la linea di tipo K (fine mista a due tratti brevi) e non vengono rappresentate anche se tagliate dal piano di sezione
 
-tramite la linea K (mista fine a due tratti brevi) rappresentiamo anche particolarità poste davanti al piano di sezione
+tramite la linea K (fine mista a due tratti brevi) rappresentiamo anche particolarità poste davanti al piano di sezione
 
 tipi di sezioni
   sezioni con un solo piano
@@ -315,7 +315,7 @@ Quote
 
 le linee di riferimento
   sporgono di 2mm oltre la linea di misura (con le frecce)
-  sono ortogonali all dimensione da misurare
+  sono ortogonali alla dimensione da misurare
   impiegano assi di simmetria, tracce di piani e linee di contorno
   generalmente non impiegano linee nascoste
     si riferiscono a intersezioni fittizie per identificare raccordi o smussi
@@ -329,7 +329,7 @@ le linee di riferimento
   privilegiano la chiarezza
 
 quote
-  è il valore dumerico di una dimensione
+  è il valore numerico di una dimensione
   lineari in mm e angolari in gradi sessagesimali
   indicano le quote reali indipendentemente dalla scala
   devono rispettare le dimensioni minime
@@ -373,7 +373,7 @@ Classificazione delle quote
     quotatura combinata
     quotatura con quote sovrapposte
       variante della quotatura in parallelo
-      consente di riparmiare spazio
+      consente di risparmiare spazio
     quotatura in coordinate
       viene fissata un'origine
       le quote vengono raggruppate in tabelle ed espresse
@@ -499,7 +499,7 @@ il sistema ISO introduce i concetti di
     in lettere minuscole per gli alberi
 
 TIPI DI LAVORAZIONI MECCANICHE
-  FONDERIA - adatta aal realizzazione di forme complesse
+  FONDERIA - adatta alla realizzazione di forme complesse
     fusione in guscio
     stampaggio delle materie plastiche
   DEFORMAZIONE PLASTICA
@@ -563,7 +563,7 @@ TIPI DI LAVORAZIONI MECCANICHE
       un arco elettrico che viene formato tra due elettrodi
       resistenza elettrica ottenuta per effetto joule al passaggio di una corrente attraverso i pezzi da saldare
       laser ad elevata potenza o altri sistemi di apporto di energia non da fiamma
-    una buona saldatura deve prevedere una zona che la zona di fusione sia protetta da fenomeni di ossidazione ed il metallo fuso sia depurato da scorie
+    una buona saldatura deve prevedere che la zona di fusione sia protetta da fenomeni di ossidazione ed il metallo fuso sia depurato da scorie
     il metallo di apporto può essere in forma di barrette o di filo continuo, che vengono avvicinate alla zona di fusione.
 
 GPS - Geometrical product specifications
