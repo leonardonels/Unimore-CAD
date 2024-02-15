@@ -5,7 +5,7 @@ Scenario:  Industria 4.0
 
 Il successo di una azienda dipende dalla sua capacità di identificare i bisoni dei conusmatori e la sua capacità di progettare e fabbricare prodotti che soddisfino tali bisogni in modo rapido e con costi contenuti
 
-Un processo può essere considerato come un insieme di attività tra loro connesse, che è in rado di riunire e far interagire più funzioni aziendali
+Un processo può essere considerato come un insieme di attività tra loro connesse, che è in grado di riunire e far interagire più funzioni aziendali
 
 l'innovazione consiste nell'utilizzo di nuove conoscenze o nell'utilizzo originale di competenze esistenti per offire un prodotto le cui caratteristche o capacità sono in grado di soddisfare meglio le aspettative del mercato e degli utenti
   innovaione nei modelli organizzativi:
@@ -23,7 +23,7 @@ Logica sequenziale (tradizionale)
   -> ISO 9000 certificazione di qulità internazionale
 
 Logica concorrente (concurrent engineering)
-  le fasi del ciclo di sviluppo, pu rimanendo le stesse della logica sequenziale vengono coordinate in parallelo con una condivisione delle informazioni e uno sviluppo sinergico del nuovo prodotto
+  le fasi del ciclo di sviluppo, pur rimanendo le stesse della logica sequenziale vengono coordinate in parallelo con una condivisione delle informazioni e uno sviluppo sinergico del nuovo prodotto
   tre attività principali sovrapposte:
     ideazione
     perfezionamento
@@ -31,7 +31,7 @@ Logica concorrente (concurrent engineering)
   lo strumento principale di comunicazione è il disegno
 
 Anche in questo casi si applica il principio di Pareto:
-  la maggior parte dei difetti è docuta ad un numero ristretto di cause (80-20)
+  la maggior parte dei difetti è docuva ad un numero ristretto di cause (80-20)
 
 Principi del CAD:
   -Modellazione Solida
@@ -69,7 +69,7 @@ Principi del CAD:
   -Design Oriented
 
 Una modellazione efficace è basato sul trasferimento del Design Intent
-  la disposizione intelligente delle feature e delle fimensioni di un design con l'obiettivo di rispettare l'obiettivo del design.
+  la disposizione intelligente delle feature e delle dimensioni di un design con l'obiettivo di rispettare l'obiettivo del design.
 Il design intent può essere trasmesso con una corretta strategia nell'uso del mathematical manager, cioè scrivendo, svolgendo e gestendo le operazioni geometriche e matematiche sui dati topologici (eventi)
   rappresentazione interna dei vincoli:
     formato di alto livello che permette una risoluzione simboica prima che numerica
@@ -133,7 +133,7 @@ Disegno:
       raggruppando particolari per formare un insieme con funzionamento autonomo si ottiene un gruppo
     disegno di componente (particolare)
     disegno di dettaglio
-  i disegno possono essere classificari in base alla collocazione nel ciclo di fabbricazione
+  i disegno possono essere classificati in base alla collocazione nel ciclo di fabbricazione
     disegno di concepimento (preliminari o di avanprogetto)
       schizzi, disegno di gruppi, sottogruppi o particolari più o meno completi
     disegno costruttivo (di definizione)
@@ -206,7 +206,7 @@ i disegni a più viste sono costituiti da proiezioni ortogonali realizzate sui p
   piano laterale
 
 vantaggi delle proiezioni a più viste
-  non altera le distanze reali e l misure
+  non altera le distanze reali e le misure
   non altera gli angoli
   non deforma le geometrie
 
@@ -249,7 +249,7 @@ superfici di raccordo tangenti e superfici cilindriche (runout)
 viste in sezione
   metto in evidenza caratteristiche interne di parti o strutture senza utilizzare (limitando) le linee nascoste
   superfici e spigoli vivi posti oltre il piano di taglio vanno rappresentati
-  le linee di contorno di aree piene all'interno di vist di sezione sono continue e non tratteggiate
+  le linee di contorno di aree piene all'interno di viste di sezione sono continue e non tratteggiate
   sono definite da
     piani di taglio immaginari che attraversano l'oggetto
       completamente (sezione completa)
