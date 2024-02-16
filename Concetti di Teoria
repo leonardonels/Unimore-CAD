@@ -665,12 +665,126 @@ PLM - product lifecycle management
     GESTIONE DEI PROCESSI utilizzati per creare, distribuire, condividere applicare le informazioni
     COINVOLGIMENTO ED INTEGRAZIONE DELLE FUNZIONI AZIENDALI collegate al prodoto
 
+EDM - engineering data management
 
+CAStyling
+  generazione della foema
+  collaborazione sinergica tra tecnico e designer
+    schizzi atti a rappresemtare le idee
+  curva NURBS - Non Uniform Rational Basis-Spline
+    definita da 4 caratteristiche
+      grado
+        le linee e le polilinee (linee spezzate) hanno grado 1, i cerchi hanno grado 2 e la maggiorparte delle free-form hanno grado 3 o 5
+        a volte si può fare riferimento all'ordine di una curva nurbs. l'ordine è un numero intero positivo pari a GRADO+1
+      punti di controllo
+        i punti di controllo sono una filadi punti in numero almeno pari a grado+1
+        uno dei modi più semplici per modificare localmente la forma di una curva nurbs consiste nel modifocare la posizione di uno dei suoi punti di controllo
+      nodi
+        i nodi sono una fila di numeri pari a grado+N-1, ove N rappresenta il numero di punti di controllo. questa sequenza di numeri che precisa la definizione parametrica della curva è detta anche "vettore dei nodi"
+      regola di stima
+        la regola di stima di una curva associa, con una formula matematica, un numero ad un punto. la regola di stima NURBS è una formula che comprende grado, punti di controllo e nodi, essa calcola le cosiddette funzioni base B-spline
+        la regola di stima è una "scatola nera" che riceve un parametro e produce un punto. il grado, i nodi e i punti di controllo determinano il modo in cui lavora questa "scatola nera"
 
+  Es. Normativa interna FIAT
+    una superficie di stile è una parte in vista della carrozzeria
+      rappresenta il modello matematico dello stile 
+      un lamierato si ottiene per offset della superficie
+      se il modello matematico non è disponibile, la superfiice con funzione estetica viene fornita su un supporto fisico dal designer dello stile e il supporto verrà
+        rilevato per punti che verranno poi interpolati
+        scansionato mediante sistemi di RE
 
+  le SUPERFICI DI RAPPRESENTAZIONE (stile) non ammettono
+    massimi o flessi di curvatutra all'intero di un elemento di superficie, ma solo lungo il suo contorno
+    superfici di raccordo tra più elementi di superficie a curvatura costante, ma solo acurvatura variabile
+  le SUPERFICI DI RAPPRESENTAZIONE sono suddivise in CLASSI DI PRECISIONE, valutata confrontando il modello matematico con la superficie di stile e misurando la continuità tra PATCH (elementi di superficie) contigue
+    Classe C - viene utilizzate per confrontre diverse proposte di stile
+    Classe B - viene utilizzata per modelli di stile non definitivi
+    Classe A - viene utilizzata per modelli di stile definitivi
 
+  SUPERFICI DI COMPLETAMENTO vengo aggiunte alle superfici di stile per generare forme effettivamente realizzabili nei processi tecnologici
+    sono generalmente costituiti da superfici a curvatura tangente e bordi piatti per il fissaggio del lamierato allóssatura
 
+CAEngineering
+  analisi del progetto
+    proprietà
+      FEM, CFD
+    meccanismi
+      assempblaggio, cinematica, dinamica
+    funzionale
+      risposta alle aspettative, aspetto, costo, profitto
+    dei fattori umani
+      bisogni fisici, ergonomia, emozionali, sicurezza
+    estetica
+      appeal, fashion
+    finanziaria e di mercato
+      reazione del mercato, ROI
 
+  FEM - Finite Elements Method
+    è una tecnica di simulazione numerica
+    consente di valutare il comportamento meccanico di un componente sotto carichi statici o dinamici
+    permette di studiare la deformazione, lo sforzo e la tensione di un componente
+    fine di trovare eventuali punti critici e migliorare le prestazioni
+    - un modello 3D viene suddivisio in elementi finiti
+    - a ogni elemento viene asseganto un insieme di proprietà fisiche
+    - vengono applicati carichi e vincoli al modello, simulando le condizioni reali di utilizzo del componente
+    - il codice numerico calcola le deformazioni e le tensioni in ogni elemento finito, fornendo un'analisi completa del comportamento del componente
+    è quindi possibile conoscere le performance del nostro progetto e capire se soddisfa le specifiche richieste, senza dover produrre un prototipo fisico
+
+  CFD - computational fluid dynamics
+    è una tecnica di simulazione numerica
+    consente di valutare il comportamento dei fluidi
+    si basa sulla risoluzione numerica delle equazioni di Navier-Stokes che desrivono i fluidi
+    è possibile analizzare il moto di un fluido attraverso il prodotto oppure al suo esterno 
+      nel primo caso la CFD è ampiamente utilizzata per progettare condotto
+      nel secondo caso la CFD è ampliamente utilizzata per analizzare ponti, edifici e l'aerodinamica di veicoli e aerei
+    oltre a poter visualizzare le linee di flusso, le zone di ristagno, i vortici è anche possibile calcolarne le grandezze fisiche
+      portata
+      velocità
+      pressione
+      temperatura
+    è quindi possibile conoscere le performance del nostro progetto e capire se soddisfa le specifiche richieste, senza dover produrre un prototipo fisico
+
+CAManufacturing
+  applicazioni (integrate o esterne) che consentono di costruire interattivamente il programma di lavorazione per una macchina CN
+  il risultato è quello di generare qutomaticamente il percorso utensile, dopo aver ricevuto dall'utente tutte le informazioni necessarie alla lavorazione
+  generazione di un programma il linguaggio macchina per il processo G-code o NC-code
+
+CAManufacturing - robotics
+  processo
+    analisi del CAE
+      creazioni percorsi modulari
+        raggiungibilità
+        singolarità
+        collisioni
+    creazioni segnali discreti (I/O)
+    creazione eventi (logica)
+    generazione e ottimizzazione programmi robot
+    definizione procedure addestramento personale
+  simulazione di verifica e ottimizzazione
+    collaudo virtuale per ridurre malfunzionamenti e tempi di implementazione
+  generazione di codice robot su virtual controller
+
+CATollerancing
+  nella realizzazione di ciascun pezzo le dimensioni possono variare a causa della variabilità intrinseca dei processi di produzione
+  quando i pezzi vengono assemblati ogni singola variazione influenzerà l'assieme finale
+  MOVES - definiscono come ciascuna parte viene posizionata sul sistema di fissaggio, in questo modo si tengono in considerazione le variazioni dovute al poszionamento delle parti
+  TOLLERANCES - sono utilizzate per definire i limiti che controllano la variazione dimensionale di ciascuna parte
+    i valori di tolleranza introdotti nel software possono provenire da misurazioni empiriche, dall'esperienza o dalle normative di riferimento
+  MEASURES - sono utilizzate per predire l'ammontare della variazione tra ogni coppia di parti, cioè per misurare il gap tra di esse
+
+una parte importante dei costi di sviluppo (di una vettura) è data dalla costruzione di prototipi funzionali
+  la tendenza è di ridurre la quantità di prototipi tramite l'impiego di Digital Mock-up, cioè dalla rappresentazione matematica dei componenti fisici
+DMU - Digital Mock-up
+  è una rappresentazione virtuale di oggetti a supporto dello sviluppo prodotto della fabbricazione
+  si ottiene assemblando all'interno di un apposito ambinete i singoli componenti del comolessivo disponibili come CAD 3D
+  permette l'analisi dell'interazione dei singoli compoeneti con il resto del complessivo (interferenze, montaggi, smontaggi, movimenti...)
+  si basa su visualizzatori pero
+    verificare la congruenza dei modelli
+    eseguire le sezioni degli assemblaggi e la loro misurazione
+    verificare la sequenza dell'assemblaggio
+    analizzare luci e interferenze (in condizioni statiche e dinamiche)
+    analizzare la cinematica dei movimenti
+  sfrutta la tassellatura
 
 
 
