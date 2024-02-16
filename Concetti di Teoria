@@ -619,6 +619,7 @@ MATERIALI
   PC - policarbonato - ottima resistenza a calore e stress
   TPU - pessimo in tutto a eccezzione della resistenza fisica
 
+anni '70
 PDM - product data management
   integrazione tra informatica di progetto e informatica di produzione, commercializzazione e mantenimento di prodotto
   consente
@@ -651,7 +652,6 @@ PDM - product data management
     CLASSIFICAZIONE DEI COMPONENTI STANDARDIZZATI E DEI RELATIVI FORNITORI
     PROCESSO DI MODIFICA DEL PRODOTTO
     AVANZAMENTO DEI PROGETTI
-
 PLM - product lifecycle management
   funzioni
     GESTIONE EFFICACE DEL CAPITALE INTELLETTUALE, assicura accuratezza, diffusione, integrità e sicurezza delle informazioni
@@ -664,8 +664,21 @@ PLM - product lifecycle management
     GARANZIA DELL'INTEGRITÀ delle informazioni
     GESTIONE DEI PROCESSI utilizzati per creare, distribuire, condividere applicare le informazioni
     COINVOLGIMENTO ED INTEGRAZIONE DELLE FUNZIONI AZIENDALI collegate al prodoto
-
 EDM - engineering data management
+
+anni '80
+MRP1 - Material Resource Planning
+MRP2 - Manufacturing Resource Planning
+
+anni '90
+Outsourcing - l'azienda si configura come un insieme di imprese collegati nello spazio e nel tempo da opportuni canali di scambio di informazioni, materiali ed energia allo scopo di generare una offerta ad alto valore competitivo
+Supply Chain -> SCM - Supply Chain Management
+
+anni '00
+ERP - Enterprise Resource Planning 
+  soluzine gestionale per un'integrazione a priori del processo industriale
+CRM - Customer Relationship Management
+  strategia volta a selezionare e gestire relazioni con clienti di maggior valore per l'azienda
 
 CAStyling
   generazione della foema
@@ -784,7 +797,9 @@ DMU - Digital Mock-up
     verificare la sequenza dell'assemblaggio
     analizzare luci e interferenze (in condizioni statiche e dinamiche)
     analizzare la cinematica dei movimenti
-  sfrutta la tassellatura
+  sfrutta la tassellazione
+  formato .stl
+    riduce la dimensione del file anche di 10 volte
 
 
 
